@@ -39,6 +39,7 @@ birthday_match_msg= ""
 if birth_month == cur_month:
     birthday_match_msg = "\nYou were born this month! Happy birth month!"
 
+
 # Output response to user 
 print(f"\nGreetings {name}, and welcome back to Python.  \
       \nThere are {n_letters} letters in your name, and you were born in {txt_b_month}.{birthday_match_msg}\n")
