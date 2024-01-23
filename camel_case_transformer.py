@@ -22,6 +22,7 @@ Design:
 
 def main():
     banner()
+    instructions()
     print("\n* * * * camelCaseTransformer * * * *\n")
     t = False  # Test boolean 
     while t == False: 
@@ -41,6 +42,10 @@ def main():
     print("View results below. Thanks for using this program!\n")
     print(result)
     print("")
+
+def instructions():
+    print('Enter a sentence and this program will convert it to UpperCamelCase')
+
 
 def list_to_camel_case(li):
     li[0] = li[0].lower()  # lowercase the first word
