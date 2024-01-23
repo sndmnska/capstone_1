@@ -21,6 +21,7 @@ Design:
 '''
 
 def main():
+    banner()
     print("\n* * * * camelCaseTransformer * * * *\n")
     t = False  # Test boolean 
     while t == False: 
@@ -47,6 +48,14 @@ def list_to_camel_case(li):
         li[x] = li[x].capitalize()     
     res = ''.join(li)
     return res
+
+def banner():
+    """ Display progam name """
+    message = "Awesome CamelCase program!!"
+    stars = '*' * len(message)
+
+    print(f'\n{stars}\n{message}\n{stars}')
+
 
 def character_check(st): 
     # True condition is a pass and continue, False condition is a fail and reenter, else condition is a blank string (exit program). 
