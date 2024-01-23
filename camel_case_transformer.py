@@ -44,6 +44,7 @@ def main():
     print("")
 
 def instructions():
+    """ Print instructions for how to use the program """
     print('Enter a sentence and this program will convert it to UpperCamelCase')
 
 
